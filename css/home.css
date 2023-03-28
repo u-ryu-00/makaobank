@@ -1,0 +1,74 @@
+main article{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    justify-content: center;
+    margin:0 auto;
+    padding: 0 1em;
+    width: 65%;
+    min-width: 1024px;
+    max-width: 1440px;
+    height: 100%;
+}
+
+main{
+    min-width:1024px;
+}
+
+main h2 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+    margin-bottom: 1.2em;
+    width: 100%;
+    min-width: 500px;
+    color: #fff;
+
+}
+
+main h2 strong{
+    font-size:1em;
+    display: block;
+}
+
+main a {
+    padding:1.5em 2.2m;
+    border-radius: 2.3em;
+    color:#fff
+}
+
+main .navigation li{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.8em;
+    width: 10em;
+    height: 4em;
+    border-radius: 2.3em;
+    box-shadow: 0px 5px 20px rgba(0,0,0,.25);
+    background-color: #0C5A4C;
+}
+main .navigation{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3em;
+}
+
+main .decoration {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    width: 76vh;
+    height: 51vh;
+    transform: translate3d(0, -50%, 0);
+    background: url(../images/saving.png) no-repeat 0 50%;
+    background-size: contain;
+}
+
+main .navigation li:hover {
+    background-color: #DDDDDD;
+}
+
+main .navigation a:active {
+    color: #000;
+}
